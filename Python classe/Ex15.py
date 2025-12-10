@@ -1,0 +1,1 @@
+"""Definir una funció gran() que, donats dos números, retorni el major.  Prova-la amb diferents exemples.""" 

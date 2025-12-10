@@ -6,7 +6,7 @@ def es_palindrom(paraula):
     return paraula == paraula[::-1]  # Comprovem si la paraula és igual al seu revers
 
 # Proves
-paraules_test = ["radar", "ara", "civic", "rallar", "tapat", "simis", "refer", "hola", "python"]
+paraules_test = ["hola", "adeu", "avui", "rallar", "alegre", "joan", "coche", "moha", "python"]
 
 print("Proves de palíndroms:")
 print("-" * 30)
