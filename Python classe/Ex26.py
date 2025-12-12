@@ -1,11 +1,11 @@
-"Definir una funció paraula_mes_llarga() que donada una llista de paraules, "
-"retorni la que té més caràcters. Ex: paraula_mes_llarga([“Hola”, “Ramis”, “IES”, “Paraula”]), ens retorni Paraula."
-def paraula_mes_llarga(llista_paraules):
-    paraula_llarga = ""
-    for paraula in llista_paraules:
-        if len(paraula) > len(paraula_llarga):
-            paraula_llarga = paraula
-    return paraula_llarga
+"""Definir una funció gran_llista() que donada una llista de número ens retorni 
+el més gran. Ex: gran_llista([3, 4, 2, 3, 10]), retorni 10."""
+def gran_llista(llista_numeros):
+    numero_mes_gran = llista_numeros[0]
+    for numero in llista_numeros:
+        if numero > numero_mes_gran:
+            numero_mes_gran = numero
+    return numero_mes_gran 
 # Exemple d'ús de la funció
-llista = ["Hola", "Ramis", "IES", "Paraula"]
-print("La paraula més llarga és:", paraula_mes_llarga(llista)) 
+llista = [3, 4, 2, 3, 10]
+print("El número més gran és:", gran_llista(llista))
